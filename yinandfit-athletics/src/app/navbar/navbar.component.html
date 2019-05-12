@@ -1,0 +1,23 @@
+<mat-toolbar>
+  <button mat-button routerLink="/">
+  <!-- <mat-icon>home</mat-icon> 
+    {{title}} -->
+    <img src="../../assets/img/ampersand-line-yin-fit.png">
+  </button>
+
+  <!-- This fills the remaining space of the current row -->
+  <span class="fill-remaining-space"></span>
+  <div fxLayout="row" fxShow="false" fxShow.gt-sm>
+    <button mat-button routerLink="/products">Placeholder</button>
+    <button mat-button routerLink="/dashboard">Placeholder</button>
+  </div>
+  <button mat-button [mat-menu-trigger-for]="menu" fxHide="false" fxHide.gt-sm>
+   <mat-icon>menu</mat-icon>
+  </button>
+
+</mat-toolbar>
+<mat-menu x-position="before" #menu="matMenu">
+  <button mat-menu-item routerLink="/products">Placeholder</button>
+  <button mat-menu-item routerLink="/dashboard">Placeholder</button>
+  <!--<button mat-menu-item>Help</button>-->
+</mat-menu>

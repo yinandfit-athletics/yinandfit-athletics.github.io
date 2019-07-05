@@ -9,7 +9,6 @@
         </h2>
       </div>
       
-      
       <form class='form middle'>
           <div class="field">
             <label class="label">Name</label>

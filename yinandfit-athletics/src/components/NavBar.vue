@@ -3,7 +3,7 @@
     <div class="mobile-container">
       <nav class="nav-mobile">
         <div class="left-menu">
-          <img src="./../assets/images/Ampersand-White-Yin-Fit.png" style="height: 40px;"/>
+          <img src="./../assets/images/Ampersand-White-Yin-Fit.png" style="height: 50px;"/>
         </div>
         <div class="right-menu">
           <a href='https://www.instagram.com/yinandfit' target='_blank'><i class="fab fa-instagram" style='color: white;'></i></a>
@@ -18,7 +18,7 @@
     </div>
     <nav class="nav-desktop">
       <div class="left-menu">
-        <img src="./../assets/images/Ampersand-White-Yin-Fit.png" style="height:40px;"/>
+        <img src="./../assets/images/Ampersand-White-Yin-Fit.png" style="height:50px;"/>
       </div>
       <a href="#" class="logo">
         <img src="./../assets/images/text-white-yin-fit.png" style="height:100px;"/>
@@ -100,13 +100,13 @@
         margin-right: 15px;
         display: flex;
         align-items: center;
-
-        .fab {
-          font-size: 2rem;
-          padding: 0.5rem;
-        }
       }
     }
+  }
+
+  .fab {
+    font-size: 2.5rem;
+    padding: 0.5rem;
   }
 
   .fab:hover, .fab:active {
